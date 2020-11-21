@@ -20,7 +20,7 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-```html
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,17 +41,17 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
             text-align: center;
             border-radius: 6px;
             padding: 5px 0;
-
+    
             /* 定位 */
             position: absolute;
             overflow: auto;
             z-index: 1;
         }
-
+    
         .tooltip:hover .tooltiptext {
             visibility: visible;
         }
-
+    
         .t1{color: #D84315;}
         .t2{color: #EF6C00;}
         .t3{color: #FF8F00;}
@@ -68,6 +68,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
     </style>
 </head>
 <body>
+
 <div style="width=50%">
 <span class="tooltip">U.S<span class="tooltiptext">美国</span></span> 
 <span class="tooltip">.<span class="tooltiptext">。</span></span> 
@@ -542,7 +543,6 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 </div>
 </body>
 </html>
-```
 
 
 
